@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    background-color: lightblue;
+    text-align: center;
+    flex-direction:column;
+    color:darkblue
+}
+
+#motto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+}
+
+#navlist{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.centercontent{
+    display: flex;
+    align-items: row;
+    flex-direction: column;
+    height: 400px;
+}
+
+.explanitorypara{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    padding: 10px;
+}
